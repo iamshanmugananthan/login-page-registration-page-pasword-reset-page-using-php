@@ -1,0 +1,106 @@
+.aform {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+}
+
+.create-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.create-account span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.create-account a {
+  color: #d65d24;
+  text-decoration: none;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.already-have-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.already-have-account span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.already-have-account a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.already-have-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.already-have-account span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.already-have-account a {
+  color: #d65d24;
+  text-decoration: none;
+}

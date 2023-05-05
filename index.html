@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="aform">
+      <form action="register.php" method="post">
+        <h2>Register</h2>
+        <div class="form-group">
+          <label for="uname">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            name="uname"
+            placeholder="Full name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="passwd1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="passwd1"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="passwd2"> Confirm Password</label>
+          <input
+            type="password"
+            class="form-control"
+            name="passwd2"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <button type="submit">Register</button>
+        <div class="already-have-account">
+          <span>Already have an account?</span> <a href="login.html">Login</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
